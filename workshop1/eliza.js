@@ -5,10 +5,6 @@
  */
 
 var rules = {
-  "~*x your name ~*y":
-  [
-    "My name is Eliza, what is yours?"
-    ],
   "~*x hello ~*y": [
     "How do you do. Please state your problem."
   ],
@@ -23,6 +19,7 @@ var rules = {
   ],
   "~*x name ~*y": [
     "I am not interested in names",
+    "My name is Eliza, what is yours?",
   ],
   "~*x sorry ~*y": [
     "Please don't apologize",
